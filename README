@@ -1,2 +1,7 @@
-Operators: 10.921
-Successors: 128.516
+Sliding tile state space : The Goal state has tiles sorted from 0 to 14 where the 0 tile is blank. 
+
+DFID: This algorithm is a depth-limited depth-first search which is called repeatedly with larger depth bounds 
+until the goal is found. The depth bounds increase by one each iteration and reports the total number of nodes expanded. 
+
+BFS: Breadth-first search, this algorithm assumes that none of the input domains contain any cycles and with each state stores 
+information to avoid generating the parent at the next level. The search terminates when the goal is found, but does not return the path that was found. 
